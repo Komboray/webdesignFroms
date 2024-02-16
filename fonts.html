@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+	<style>
+    .center{
+	display:flex;
+        justify-content:center;
+	background-color:lightblue;
+        height:200px;
+	
+        padding:30px;
+	align-items:space-between;
+        
+         
+    }
+</style>
+</head>
+<body>
+<div class="center">
+<table>
+    <form action="" method="post">
+	<tr><td><h1 style="color:red;">Enter your details below</h1></tr></td>
+    <tr><td><label for="name">Name</label>
+    <input type="text" name = "name" placeholder="Enter your name" required>
+
+    <tr><td><label for="address">Address</label>
+    <input type="text" name = "address" placeholder="Enter physical address"></tr></td>
+	<tr><td><label> Email</label>
+    <input type="email" name = "email"placeholder="Enter email i.e joe@gmail.com"></tr></td>
+
+    <tr><td><input type="submit" name="submitDetails" value="Send details to the database"></tr></td>
+</form>
+
+</table>
+    </div>
+    
+</body>
+</html>
